@@ -2,6 +2,8 @@
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
 using Windows.Graphics;
+using TARge21SciCalculator.Views;
+using Microsoft.Maui;
 #endif
 
 namespace TARge21SciCalculator;
@@ -27,6 +29,6 @@ public partial class App : Application
 		});
 #endif
 
-		MainPage = new AppShell();
+		MainPage = new CalculatorPage();
 	}
 }

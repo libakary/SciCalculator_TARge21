@@ -83,7 +83,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MEAN" />
+            Text="MEAN" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MEAN" />
 
         <Button
             Grid.Row="2"
@@ -91,7 +93,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MOD" />
+            Text="MOD" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MOD" />
 
         <Button
             Grid.Row="2"
@@ -99,7 +103,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="STD" />
+            Text="STD" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="STD" />
 
         <Button
             Grid.Row="2"
@@ -107,7 +113,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="VAR" />
+            Text="VAR" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="VAR" />
 
         <Button
             Grid.Row="2"
@@ -115,7 +123,9 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="FACT" />
+            Text="FACT" 
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="FACT" />
 
         <!--Row 2-->
         <!--need tuleb bindida commandiga ScientificOperatorCommand, googeldame-->

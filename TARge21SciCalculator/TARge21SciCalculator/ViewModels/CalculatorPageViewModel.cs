@@ -1,4 +1,4 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿
 
 namespace TARge21SciCalculator.ViewModels
 {
@@ -39,6 +39,10 @@ namespace TARge21SciCalculator.ViewModels
 			try
 			{
 				var inputString = NormalizeInputString();
+				var expression = new Expression(inputString);
+				var result = expression.Evaluate();
+
+				CalculatedResult = result.ToString();
 			}
 			catch (Exception ex)
 			{
